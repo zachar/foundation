@@ -1,0 +1,70 @@
+/* Styles for responsive nav */
+.navigation {
+  background: #dc8f84;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #dc8f84 0%, #b5424f 28%, #b5424f 75%, #dc8f84 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #dc8f84), color-stop(28%, #b5424f), color-stop(75%, #b5424f), color-stop(100%, #dc8f84));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #dc8f84 0%, #b5424f 28%, #b5424f 75%, #dc8f84 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #dc8f84 0%, #b5424f 28%, #b5424f 75%, #dc8f84 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #dc8f84 0%, #b5424f 28%, #b5424f 75%, #dc8f84 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #dc8f84 0%, #b5424f 28%, #b5424f 75%, #dc8f84 100%);
+  /* W3C */
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #423C40;
+}
+
+.primary {
+  padding-left: 20px;
+  padding-bottom: 0;
+  border-left: 1px solid #A33441;
+  height: 55px;
+}
+
+a {
+  line-height: 55px;
+}
+
+.logo {
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #423C40;
+  line-height: 55px;
+}
+
+.inline-list {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.main-list a {
+  font-size: 13px;
+}
+
+.right {
+  padding-right: 20px;
+}
+
+.inline-list li {
+  margin-left: 13px;
+}
+
+img {
+  position: absolute;
+  top: 8px;
+}
+
+p {
+  display: inline;
+  padding-left: 50px;
+}
