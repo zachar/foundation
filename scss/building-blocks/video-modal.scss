@@ -12,7 +12,7 @@
   padding:15px 50px 0 50px;
   width: 100%;
   background: #125069;
-  top: 0;
+  top: 0 !important;
   left: 0;
   margin: 0;
   height: 100%;
@@ -23,8 +23,6 @@
 
 
 // styles for the play button
-// =================================================================
-
 .play-button{
   position: absolute;
   left: 50%;
@@ -37,7 +35,6 @@
     width: 100px;
     border-radius: 50%;
     border: 5px solid #fff;
-   
     span {
       border-top: 25px solid transparent;
       border-bottom: 25px solid transparent;
@@ -55,7 +52,6 @@
       }
     }
   }
-
 }
 
 
