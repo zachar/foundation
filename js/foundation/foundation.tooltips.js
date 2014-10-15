@@ -110,11 +110,18 @@
     },
 
     reposition : function (target, tip, classes) {
+      console.log('repo')
       var width, nub, nubHeight, nubWidth, column, objPos;
 
       tip.css('visibility', 'hidden').show();
 
-      width = target.data('width');
+      if(target.width() < 80){
+        width = 80;
+      }
+      else{
+        width = target.width();
+      }
+      
       nub = tip.children('.nub');
       nubHeight = this.outerHeight(nub);
       nubWidth = this.outerHeight(nub);
