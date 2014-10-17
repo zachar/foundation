@@ -110,7 +110,6 @@
     },
 
     reposition : function (target, tip, classes) {
-      console.log('repo')
       var width, nub, nubHeight, nubWidth, column, objPos;
 
       tip.css('visibility', 'hidden').show();
